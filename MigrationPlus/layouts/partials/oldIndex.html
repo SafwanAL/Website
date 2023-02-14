@@ -9,216 +9,25 @@
 
   <body>
 
-    {{ partial "nav.html" . }}
-    
-    <div class="container-fluid centered">
-      <div class="row  justify-content-md-center"
-           style="height: 100%;
-                  background-image: url('img/old/together.jpg');
-                  background-repeat: no-repeat;
-                  background-position: center;
-                  background-size: cover;
-                  padding-top: 20%;">
-          <img src="img/old/MigrationPlus_Logo_Centered.png" 
-               alt="{{ .Title }} logo" 
-               class="hidden-xs hidden-sm" 
-               style="height: 40%;
-                      width: 40%;"/>
-      </div> 
-
-      <div class="row text-center"
-           style="background-color: #E8E6E6;">
-        <h1 style="font-size: 47px;
-                   padding-top: 10%;">
-          Heimat ist da, wo man sich wohlfühlt
-        </h1>
-        <p class="text text-center" 
-           style="font-size:18px; 
-                  line-height:1.8em; 
-                  letter-spacing:normal;
-                  padding-left: 20%;
-                  padding-right: 20%;
-                  padding-bottom: 10%;">
-
-          In einer Welt, in der viele Kinder und Jugendliche in emotionaler und finanzieller Armut aufwachsen und unter fehlender Chancengleichheit leiden, möchten wir mit MigrationPlus einen entscheidenden Unterschied in ihrer Entwicklung machen. Unsere Vision ist ein Verein, der sozial benachteiligte Zielgruppen in den Mittelpunkt stellt und durch eine passgenaue, ziel- und lösungsorientierte sowie menschliche Unterstützung durch besonders herausfordernde Lebenssituationen begleitet. Wir stoßen Prozesse an, die die Chancen von jungen Menschen auf dauerhafte soziale und berufliche Teilhabe fördern, unabhängig von ihrer Herkunft.
-        </p>
-      </div>  
-    </div>
-
-    <div class="container-fluid centered text-titles">
-          Unsere Handlungsschwerpunkte
-    </div>
-      
-    <div class="container-fluid">
-      <div class="row text-center">
-        <div class="col-sm-6" 
-             style="background-image: url('img/old/background4.jpg');
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: auto;
-                    padding-top: 7%;
-                    padding-bottom: 10%;">
-          <h3 class="title" 
-              style="color: #4BD1A0; 
-                     font-family: lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;">
-            Partizipation
-          </h3>
-          <div id="Partizipation-txt"
-                 class="text-paragraph-blue"
-                 style="opacity: 80%;">
-            <p class="text" style="color: #FFFFFF;">
-              Stärkung der Partizipation und Teilhabe von Kindern und Jugendlichen mit Migrationshintergrund
-              <br><br>
-              Durch ein attraktives und abwechslungsreiches Vereinsangebot möchten wir Kinder und Jugendliche dazu motivieren sich aktiv im Vereinsleben einzubringen, gesellschaftlich zu engagieren und Dinge selbst in die Hand zu nehmen.
-              <br>
-              Partizipation steht für die Idee eines aktiven Mitgestaltens und der dafür erforderlichen Chancengerechtigkeit in allen gesellschaftlichen Bereichen.
-            </p>
-          </div>
+<!--     <div class="container">
+      <div class="row" style="height:50px">
+        <div class="col-sm-6 bs-tertiary-bg" >
+          
         </div>
-        <div class="col-sm-6"
-             style="background-image: url('img/old/background3.jpg');
-                      background-repeat: no-repeat;
-                      background-position: center;
-                      background-size: auto;
-                      padding-top: 8%;
-                      padding-bottom: 10%;">
-          <h3 class="title" 
-              style="color: #FFFFFF; 
-                     font-family: lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;">
-            Erziehung und Bildung
-          </h3>
-          <div id="Partizipation-txt"
-               class="text-paragraph-blue"
-               style="opacity: 85%;">
-            <p class="text" style="color: #FFFFFF;">
-              Langfristige Chancengleichheit durch niedrigschwellige und außerschulische Bildungsangebote
-              <br><br>
-              insbesondere für Schülerinnen und Schüler aus einem sozial angespannten Umfeld sind ergänzende außerschulische Bildungsangebot enorm wichtig. Kinder und Jugendliche sollen ihr wertvolles Potenzial entdecken und entwickeln können. Wir fördern und begleiten sie dabei, tragfähige Werte und hilfreiche Strukturen für Ihr Leben umzusetzen.
-            </p>
-          </div>
+        <div class="col-sm-6">
+          
         </div>
-      </div>
 
-      <div class="row text-center">
-        <div class="col-sm-6" 
-             style="background-image: url('img/old/background2.jpg');
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: auto;
-                    ">
-          <h3 class="title" 
-              style="color: #4BD1A0; 
-                     font-family: lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;
-                     margin-top: 8%;">
-            Partizipation
-          </h3>
-          <div id="Partizipation-txt"
-                 class="text-paragraph-blue"
-                 style="opacity: 80%;
-                        margin-bottom: 9%;">
-            <p class="text" style="color: #FFFFFF; ">
-              Stärkung der Partizipation und Teilhabe von Kindern und Jugendlichen mit Migrationshintergrund
-              <br><br>
-              Durch ein attraktives und abwechslungsreiches Vereinsangebot möchten wir Kinder und Jugendliche dazu motivieren sich aktiv im Vereinsleben einzubringen, gesellschaftlich zu engagieren und Dinge selbst in die Hand zu nehmen.
-              <br>
-              Partizipation steht für die Idee eines aktiven Mitgestaltens und der dafür erforderlichen Chancengerechtigkeit in allen gesellschaftlichen Bereichen.
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-6"
-             style="background-image: url('img/old/background1.jpg');
-                      background-repeat: no-repeat;
-                      background-position: center;
-                      background-size: auto;">
-          <h3 class="title" 
-              style="color: #FFFFFF; 
-                     font-family: lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;
-                     margin-top: 8%;">
-            Erziehung und Bildung
-          </h3>
-          <div id="Partizipation-txt"
-               class="text-paragraph-blue"
-               style="opacity: 85%;
-                      margin-bottom: 9%;">
-            <p class="text" style="color: #FFFFFF;">
-              Langfristige Chancengleichheit durch niedrigschwellige und außerschulische Bildungsangebote
-              <br><br>
-              insbesondere für Schülerinnen und Schüler aus einem sozial angespannten Umfeld sind ergänzende außerschulische Bildungsangebot enorm wichtig. Kinder und Jugendliche sollen ihr wertvolles Potenzial entdecken und entwickeln können. Wir fördern und begleiten sie dabei, tragfähige Werte und hilfreiche Strukturen für Ihr Leben umzusetzen.
-            </p>
-          </div>
-        </div>
       </div>
     </div>
-
-    <div class="centered text-titles">
-          Betreuungszeiten
-    </div>
-
-    <div class="container-fluid">
-      <div class="row text-center">
-        <div class="col-sm-6" 
-             style="padding-top: 7%;
-                    padding-bottom: 7%;
-                    padding-left: 6%;
-                    padding-right: 6%;">
-          <h3 class="title" 
-              style="color: #2B2B2B;
-                     opacity: 95%;
-                     font-family: lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;">
-              Aktuelles
-          </h3>
-          <div id="Partizipation-txt"
-               style="font-size:20px; 
-                      line-height:1.8em;
-                      font-family: lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;
-                      font-weight: bold;">
-            <p class="text" >
-              Hausaufgabenbetreuung in Setterich für Kinder bis zur 7. Klasse
-              Der Unterricht findet in Kleingruppen von bis zu fünf Kindern statt. Unsere qualifizierten und motivierten Betreuer decken unterschiedliche fachliche Schwerpunkte ab. Mit einem individuell zugeschnittenen Lernkonzept gehen wir auf unsere Schüler*innen ein, geben ihnen Rückhalt, ermöglichen ihnen Erfolgserlebnisse in einem angstfreien Umfeld.
-              Unser Kernangebot deckt die Fächer Mathematik, Deutsch und Englisch ab.
-            </p>
-          </div>
-        </div>
-        <div class="col-sm-6"
-             style="padding-top: 8%;
-                    padding-bottom: 10%;">
-          <h3 class="title" 
-              style="color: #2B2B2B;
-                     opacity: 95%; 
-                     font-size: 25px; 
-                     font-family: lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;">
-            Montags bis donnerstags
-          </h3>
-
-          <div id="Partizipation-txt"
-               style="opacity: 80%;
-                      padding-left: 10%;
-                      padding-right: 10%;">
-            <p class="text" 
-               style="font-size:20px; 
-                      line-height:1.8em;
-                      font-family: lulo-clean-w01-one-bold,lulo-clean-w05-one-bold,sans-serif;
-                      font-weight: bold;">
-              von 15:00 bis 16:30
-              <br><br>
-              Wenn Du Interesse hast, dann ruf uns an oder schreib uns eine Mail.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="row text-center">
-        <div class="col-sm-6" >
-        </div>
-    </div>
-
-
-
-
-
-
 
     <div id="all">
-        <!-- <div id="main-Logo" 
+ -->
+        
+
+        {{ partial "nav.html" . }}
+
+        <div id="main-Logo" 
              style="height: 800px;
                     display: flex;
                     justify-content: center;
@@ -233,9 +42,9 @@
                          class="hidden-xs hidden-sm" 
                          style="margin-top: 350px; 
                                 height: 40%;"/>
-        </div> -->
+        </div>
 
-        <!-- <div id="general-text" 
+        <div id="general-text" 
              class="single-container centered"
              style="background-color: #E8E6E6;">
           <h1 class="title" style="font-size: 47px;">
@@ -250,13 +59,13 @@
                     font-size:18px;">
             In einer Welt, in der viele Kinder und Jugendliche in emotionaler und finanzieller Armut aufwachsen und unter fehlender Chancengleichheit leiden, möchten wir mit MigrationPlus einen entscheidenden Unterschied in ihrer Entwicklung machen. Unsere Vision ist ein Verein, der sozial benachteiligte Zielgruppen in den Mittelpunkt stellt und durch eine passgenaue, ziel- und lösungsorientierte sowie menschliche Unterstützung durch besonders herausfordernde Lebenssituationen begleitet. Wir stoßen Prozesse an, die die Chancen von jungen Menschen auf dauerhafte soziale und berufliche Teilhabe fördern, unabhängig von ihrer Herkunft.
           </p>
-        </div> -->
+        </div>
 
-        <!-- <div class="centered text-titles">
+        <div class="centered text-titles">
             Unsere Handlungsschwerpunkte
-        </div> -->
+        </div>
 
-        <!-- <div id="two-col-1" class="two-col-container" style="height: 600px">
+        <div id="two-col-1" class="two-col-container" style="height: 600px">
           <div id="l-txt-1-1" 
                class="col-sm-6 col-sm-12 centered"
                style="background-image: url('img/old/background4.jpg');
@@ -306,10 +115,6 @@
             </div>
           </div>
         </div>
-
-
-
-
 
         <div id="two-col-2" class="two-col-container" style="height: 500px; background-color: blue;">
           <div id="l-txt-2-1" 
@@ -416,13 +221,13 @@
               </p>
             </div>
           </div>
-        </div> -->
+        </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+<!--         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
                 integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
                 crossorigin="anonymous">
                   
-        </script>
+        </script> -->
 
         <!-- {{ partial "features.html" . }} -->
 
@@ -433,7 +238,7 @@
         <!-- {{ partial "recent_posts.html" . }} -->
 
         <!-- {{ partial "clients.html" . }} -->
-<!-- TODO -->
+
         {{ partial "footer.html" . }}
 
     </div>

@@ -6,3 +6,7 @@
 	path = MigrationPlus/public
 	url = https://github.com/SafwanAL/MigrationPlus.github.io.git
 	branch = main
+[submodule "MigrationPlus/public1"]
+	path = MigrationPlus/public1
+	url = https://github.com/migrationplus/MigrationPlus.github.io.git
+	branch = main

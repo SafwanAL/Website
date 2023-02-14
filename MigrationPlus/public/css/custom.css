@@ -29,8 +29,7 @@
 }
 
 .text-titles{
-/*    height: 70px; */
-    min-height: 70px;
+    height: 70px; 
     background-color: #4D6685; 
     color: #FFFFFF; 
     padding-top: 5px;
@@ -39,7 +38,6 @@
     font-style:normal; 
     font-weight:bold; 
     letter-spacing:0.2em;
-    text-align: center;
 }
 
 .text-paragraph-blue{
